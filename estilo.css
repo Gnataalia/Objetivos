@@ -1,11 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
-
-   :robot{
+:root{
     --cor-de-fundo: #091413;
---cor-de-texto-principal:#B0E4CC;
---cor-de-texto-secundário:#B0E4CC;
---botão-ativo:#7FB77E;
---botâo-inativo:#7FB77E;
+   --cor-de-texto-principal:#B0E4CC;
+   --cor-de-texto-secundário:#B0E4CC;
+   --botão-ativo:#7FB77E;
+   --botâo-inativo:#7FB77E;
    }
 
-body{font-family: "Raleway", sans-serif;}
+body{
+   font-family: "Raleway", sans-serif;
+
+
+}
