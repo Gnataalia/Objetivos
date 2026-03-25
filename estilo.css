@@ -10,6 +10,6 @@
 body{
    font-family: "Raleway", sans-serif;
 
-} background:var(--cor-de-fundo);
+ background:var(--cor-de-fundo);
 color:var(--cor-de-texto-principal);
-font-family: "Changa", sans-serif;
+}
