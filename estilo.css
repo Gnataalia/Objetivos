@@ -11,5 +11,8 @@ body{
    font-family: "Raleway", sans-serif;
 
  background:var(--cor-de-fundo);
-color:var(--cor-de-texto-principal);
-}
+color:var(--cor-de-texto-principal);}
+         text-align: lef;
+         width: 100%;
+         font-size: 32px;
+         
