@@ -9,10 +9,25 @@
 
 body{
    font-family: "Raleway", sans-serif;
+   conteudo-principal{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   max-width: 1200px;
+   width: 100%;
+   margin: 0 auto;
 
  background:var(--cor-de-fundo);
 color:var(--cor-de-texto-principal);}
-         text-align: lef;
+
+         text-align: :left;
          width: 100%;
          font-size: 32px;
+
+         .titulo-principal{
+            text-aling:var(--botâo-inativo)
+            
          
+         
+
