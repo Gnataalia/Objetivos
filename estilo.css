@@ -1,15 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
-:root{
-    --cor-de-fundo: #091413;
-   --cor-de-texto-principal:#B0E4CC;
-   --cor-de-texto-secundário:#B0E4CC;
-   --botão-ativo:#7FB77E;
-   --botâo-inativo:#7FB77E;
-   }
 
-body{
+:root {
+   --cor-de-fundo: #091413;
+   --cor-de-texto-principal: #B0E4CC;
+   --cor-de-texto-secundário: #B0E4CC;
+   --botão-ativo: #7FB77E;
+   --botâo-inativo: #7FB77E;
+}
+
+body {
    font-family: "Raleway", sans-serif;
-   conteudo-principal{
+   background: var(--cor-de-fundo);
+   color: var(--cor-de-texto-principal);
+}
+
+conteudo-principal {
    display: flex;
    flex-direction: column;
    justify-content: center;
@@ -18,24 +23,26 @@ body{
    width: 100%;
    margin: 0 auto;
 
- background:var(--cor-de-fundo);
-color:var(--cor-de-texto-principal);}
+}
 
-         text-align: :left;
-         width: 100%;
-         font-size: 32px;
+.titulo-principal {
 
-         .titulo-principal{
-            text-aling:var(--botâo-inativo)
+   text-align: left;
+   width: 100%;
+   font-size: 32px;
+}
 
-         
-         
-.botao{
-   background-color: var[var(--botão-ativo)]
-   display: flex;
-   justify-content: center; 
+
+.botao {
+   background-color: var(--botão-ativo);
+    display: flex;
+   justify-content: center;
    padding: lem;
    font-size: 18px;
-   aling-items: center;
-   width:100%;
+   align-items: center;
+   width: 100%;
+   border-bottom: 4px solid var(--botão-ativo)
+   border-left: 4px solid var(--botão-ativo)
+   border-right: 2px solid var(var(--botão-ativo))
+   border-top: none;
 }
