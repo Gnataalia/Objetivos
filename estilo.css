@@ -14,7 +14,7 @@ body {
    color: var(--cor-de-texto-principal);
 }
 
-conteudo-principal {
+.conteudo-principal {
    display: flex;
    flex-direction: column;
    justify-content: center;
