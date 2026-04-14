@@ -53,12 +53,21 @@ body {
 
 .botao.ativo{
    background-color: var(--botão-ativo);
-   border-bottom: 4px solid grey
-}
+   border-bottom: 4px solid grey;
 
+}
+.aba-conteudo.ativo{
+       display:block
+
+}
+.abas.texto{
+    background-color:var(--botâo-inativo)
+    padding:  40px;
+    border-radius: 0 0 40px 40px;
 
 
 @media screen and (min-width: 768px){
+
         .botoes{
              display: flex;
         }
