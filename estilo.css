@@ -58,14 +58,17 @@ body {
 }
 .aba-conteudo.ativo{
        display:block
+}
+.aba--conteudo{
+   display: none;
 
 }
 .abas.texto{
-    background-color:var(--botâo-inativo)
+    background-color:var(--botâo-inativo);
     padding:  40px;
     border-radius: 0 0 40px 40px;
 
-
+}
 @media screen and (min-width: 768px){
 
         .botoes{
@@ -77,4 +80,8 @@ border-radius: 40px 0 0 0;
    .botao:last-child{
 border-radius: 0 40px 0 0;
 }
+}
+.conteudo-principal{
+      font-size: 28px;
+      text-align: center;
 }
