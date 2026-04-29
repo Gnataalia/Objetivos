@@ -3,7 +3,7 @@
 :root {
    --cor-de-fundo: #091413;
    --cor-de-texto-principal: #B0E4CC;
-   --cor-de-texto-secundário: #B0E4CC;
+   --cor-de-texto-secundário: #1db66e;
    --botão-ativo: #7FB77E;
    --botâo-inativo: #7FB77E;
 }
@@ -76,7 +76,7 @@ body {
 }
 .conteudo-titulo-secundario{
    text-align: center;
-   color: #b0e4cc var;(--cor-texto-secundaria);
+   color: #b0e4cc var(--cor-texto-secundaria);
    text-transform: uppercase;
 }
 .contador{
@@ -99,7 +99,7 @@ body {
    color: aliceblue var(--cor-de-texto-secundário);
    font-size: 20px;
    margin: 0;
-   
+}
 
 
 
