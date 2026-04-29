@@ -5,7 +5,7 @@
    --cor-de-texto-principal: #B0E4CC;
    --cor-de-texto-secundário: #1db66e;
    --botão-ativo: #7FB77E;
-   --botâo-inativo: #225721;
+   --botao-inativo: #225721;
 }
 
 body {
@@ -64,7 +64,7 @@ body {
 
 }
 .abas-texto{
-    background-color:var(--botão-inativo);
+    background-color:var(--botao-inativo);
     padding:  40px;
     border-radius: 0 0 40px 40px;
 
